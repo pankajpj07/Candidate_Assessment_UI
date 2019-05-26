@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Chat design</title>
+</head>
+<body>
+        <script src="./app.js"></script>
+    <main>
+        <nav class="breadcrumbs">
+            <ul>
+                <li>Batches</li>
+                <li>TimeTable</li>
+                <li>Enquiry</li>
+                <li>TestLib</li>
+                <li>Chats</li>
+                <li>Content Share</li>
+            </ul>
+            <h2 class="user"><span id="private-logo">PJ</span>Pankaj Jain</h2>
+        </nav>
+        <section>
+            <aside class="sidebar">
+                <div class="heading">
+                    <h2>Messenger</h2>
+                    <p>New Chat</p>
+                </div>
+                <div class="chat-area">
+                    <div class="search">
+                        <div class="searchbox">
+                            <label for="search"><img src="./img/search.png" alt=""></label>
+                            <input type="text" id="search" placeholder="Search for chats" >
+                        </div>
+                    </div>
+                    <div class="chatbox">
+                        <div class="member">
+                            <img src="./img/dp.jpg" alt="">
+                            <div class="info">
+                                <h3>Tiger Shroff</h3>
+                                <p>SOTY2 is the worst movie ever</p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+            </aside>
+            <article class="chatbar">
+                <nav class="chat-menu">
+                    <div class="current-chat">
+                        <img src="./img/dp.jpg" alt="profile_pic">
+                        <div class="username">
+                            <h3>Tiger Shroff</h3>
+                            <p>typing...</p>
+                        </div>
+                    </div>
+                    <div class="chat-options">
+                            <label class="switch"> 
+                                    <input type="checkbox" checked id="status">
+                                    <span class="slider round"></span>
+                            </label>
+                            <span class="replies"></span>
+                            
+                    </div>
+                </nav>
+                <div class="discussion">
+                </div>  
+                <div class="reply-notification">
+                    Replies are turned OFF, Tiger won't be able to send you messages now.
+                </div>
+                <form class="editor">
+                    <img src="./img/att.png" alt="Attachment">
+                    <input type="text" placeholder="Type something tosend..." id="msg">
+                    <img src="./img/send.png" alt="Send">
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
