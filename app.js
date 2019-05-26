@@ -37,7 +37,7 @@ $(document).ready(function(){
 
   function loadData()
   {
-    $.getJSON("./chats.json", function( data ){
+    $.getJSON("https://api.myjson.com/bins/hpq90", function( data ){
                     console.log(data);
                     const chats = $('.chatbox');
                     for (let i = 0; i < data.length; i++) 

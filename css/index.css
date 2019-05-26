@@ -157,7 +157,6 @@
     border:none;
     flex-grow: 2;
     text-align: center;
-    background-color: pink;
 }
 .searchbox>input:focus{
     outline:none;
